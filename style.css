@@ -1,0 +1,21 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    
+}
+
+
+
+
+.main-div {
+    background: hsl(0, 0%, 100%);
+    margin: auto;
+    width: 700px;
+    padding: 30px;
+    border-radius: 2rem;
+}
+
+img {
+    height: auto;
+    width: 400px;
+    
+}
