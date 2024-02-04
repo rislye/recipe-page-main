@@ -1,8 +1,28 @@
+/* MAIN WEBSITE FORMAT/PICTURE */
+
 body {
     background-color: hsl(30, 54%, 90%);
     font-family: 'Outfit', sans-serif;
     box-sizing: border-box;
     color: hsl(30, 10%, 34%);
+    font-size: 16px;
+}
+
+.main-div {
+    background: hsl(0, 0%, 100%);
+    margin: 5% auto;
+    width: 700px;
+    padding: 30px;
+    border-radius: 1em;
+}
+
+img {
+    height: auto;
+    width: 700px;
+    margin: auto;
+    display: block;
+    border-radius: 1em;
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -12,6 +32,14 @@ h1 {
     color: hsl(24, 5%, 18%);
 }
 
+h2 {
+    font-size: 32px;
+    font-family: 'young serif';
+    color: hsl(14, 45%, 36%);
+}
+
+/* DESCRIPTION */
+
 .description {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -20,6 +48,8 @@ h1 {
 .description p {
     width: 650px;
 }
+
+/* PREPARATION */
 
 .preparation {
     background-color: hsl(330, 100%, 98%);
@@ -41,16 +71,10 @@ h1 {
     color: hsl(332, 51%, 32%);
 }
 
- h2 {
-    font-size: 32px;
-    font-family: 'young serif';
-    color: hsl(14, 45%, 36%);
-}
+/* INGREDIENTS */
 
 .ingredients {
-    padding-bottom: 20px;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    padding-bottom: 10px;
     border-bottom: 1px solid;
     border-color: hsl(30, 18%, 87%);
 }
@@ -68,33 +92,57 @@ h1 {
     color: hsl(14, 45%, 36%);
 }
 
+/* INSTRUCTIONS */
 
-
-
-
-.main-div {
-    background: hsl(0, 0%, 100%);
-    margin: auto;
-    width: 700px;
-    padding: 30px;
-    border-radius: 1em;
-}
-
-img {
+.instructions {
+    width: 635px;
     height: auto;
-    width: 700px;
-    margin: auto;
-    display: block;
-    border-radius: 1em;
+    border-bottom: 1px solid;
+    border-color: hsl(30, 18%, 87%);
+    padding-bottom: 10px;
+}
+.instructions ol {
+    padding-left: 20px;
 }
 
-/*Font
-
-@font-face {
-    font-family: Outfit;
-    src: url(https://fonts.google.com/specimen/Outfit)format("truetype");
+.instructions li {
+    margin-bottom: 10px;
+    padding-left: 20px;
 }
 
+.instructions li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
 
-font-family: 'Outfit', sans-serif;
-*/
+/* TABLES/NUTRITION */
+
+.tables {
+    margin-bottom: 20px;
+}
+
+.table {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    display: inline-block;
+
+}
+
+.table.left {
+    width: 280px;
+    height: auto;
+   
+    
+}
+
+.table.right {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.tabborder {
+    border-bottom: 1px solid;
+    border-color: hsl(30, 18%, 87%);
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
