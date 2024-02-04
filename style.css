@@ -2,13 +2,14 @@ body {
     background-color: hsl(30, 54%, 90%);
     font-family: 'Outfit', sans-serif;
     box-sizing: border-box;
-    color: hsl(24, 5%, 18%);
+    color: hsl(30, 10%, 34%);
 }
 
 h1 {
     font-family: 'young serif';
     display: inline;
     font-size: 48px;
+    color: hsl(24, 5%, 18%);
 }
 
 .description {
@@ -32,7 +33,7 @@ h1 {
 }
 
 .preparation h3 {
-    padding-left: 25px;
+    padding-left: 20px;
     color: hsl(332, 51%, 32%);
 }
 
@@ -40,9 +41,35 @@ h1 {
     color: hsl(332, 51%, 32%);
 }
 
-.preparation ul {
-    
+ h2 {
+    font-size: 32px;
+    font-family: 'young serif';
+    color: hsl(14, 45%, 36%);
 }
+
+.ingredients {
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    border-color: hsl(30, 18%, 87%);
+}
+
+.ingredients ul {
+    padding-left: 20px;
+}
+
+.ingredients li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.ingredients li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+
+
 
 
 .main-div {
